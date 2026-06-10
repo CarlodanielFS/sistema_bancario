@@ -87,7 +87,11 @@ def iniciar_sistema():
                 elif entrada == 3:
                     mensagem('Opcao de extrato selecionado')
                     mostrar_extrato(contas['saldo'],extrato = contas['extrato'])
-                    
+                
+                elif entrada == 4:
+                    mensagem('Voltando ao  menu inicial')
+                    break
+                
         elif tela_inicial == 2:
             validaçaoConta()
         

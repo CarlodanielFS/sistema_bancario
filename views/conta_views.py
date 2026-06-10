@@ -11,7 +11,7 @@ def menu():
     print('[1] Depositar')
     print('[2] Sacar')
     print('[3] Extrato')
-    print('[4] Cadastrar')
+    print('[4] Voltar menu inicial')
 
 def pedir_valor():
     return float(input("Valor: "))
